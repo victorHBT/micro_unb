@@ -1,0 +1,18 @@
+#questão 1
+-O barramento de dados, como o próprio nome já diz, é por este tipo de barramento que ocorre as trocas de dados no 
+computador, tanto enviados quanto recebidos. Já o de endereços indica o local onde os processos devem ser extraídos
+e para onde devem ser enviados após o processamento.
+#questão 2
+-Memoria RAM é uma memoria volátil que serve para rodar aplicações depois que o computador já está ligado, e cujas informações 
+são perdidas depois do desligamento da máquina e que pode ser acessada a qualquer momento pelo sistema operacional para carregar e 
+sobrescrever informações com muita rapidez.
+-Memoria ROM  se refere a um tipo de memória quase permanente, e está principalmente localizada no chip responsável pela iniciação do
+sistema e é lá que as informações básicas do computador ficam armazenadas, portanto não são afetadas quando o dispositivo é desligado.
+#questão 3
+-a)RAM, por ser um dado temporario q vai ser sobre-escrito depedendo da entrada do usuário.
+-b)ROM, por que ele vai ser salvo no computador e poderá ser usado após o desligamento do computador.
+#qustão 4
+A diferença entre a arquitetura Von Neunmann e a Harvard é que a última separa o armazenamento e o comportamento das instruções do CPU e 
+os dados, enquanto a anterior utiliza o mesmo espaço de memória para ambos.
+Von Neunmann: arquitetura mais simples; mais lento pois não permite acesso simutaneo às memorias; geralmente CISC.
+Harvard: arquitetura mais complexa; mais rapido pois possue acesso simuntaneo às memoria, geralmente RISC; permmite pipelining.
