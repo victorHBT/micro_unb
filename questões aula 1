@@ -14,3 +14,9 @@ microcontroladores.
 -c) Na automação industrial há o uso de microcontroladores em basicamente todas as maquinas que são autonomas, como pode-se ver pelo nome.
 Como na maior parte da etapa de montagem de um veículo, é feita por microcontroladores.
 #questão 4
+-Existem os computadores completos que tem hardware e software como a raspbarry, desktop e notebooks. Existem circuitos feitos sob medida 
+pra uma determinada aplicação. Existem os microcontroladores como fpga, msp. Os microcontroladores não possuem interface para o usuario, 
+diferente de um notbook ou desktop. Os microcontroladores são de baixo custo comparado com um computador comum, funcionais e flexiveis. 
+Porém possuem são mais lentos, possuem menos memória e são usadas geralmente para tarefas específicas.
+#questão 5
+-Devido a seu baixo custo comparado à outros microcontroladores e seu baixo consumo.
