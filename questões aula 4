@@ -1,0 +1,5 @@
+1)a) mov #0,R4
+b)mov R5,R11
+add #1,R11
+c)sub #1,R6
+d)
