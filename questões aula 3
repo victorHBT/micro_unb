@@ -1,1 +1,53 @@
+1)
+a) a |= 0x01;
+b) a |= 0x03;
+c) a &= 0xFB;
+d) a &= 0xF3;
+e) a ^= 0x80;
+f) a ^= 0x80; a |= 0x0F;
 
+2)
+ #include <msp430g2553.h>
+    #define LED01 BIT0
+    #define LED02 BIT6
+
+    void main ()
+    {
+
+        WDTCTL = WDTPW|WDTHOLD;
+        P1OUT = 0;
+        P1DIR = LED01 + LED02;
+
+        for (;;)
+        {
+            P1OUT ^= LED01 + LED02;     
+           for (i = 0; i < 0x1000; i++);
+        }
+    }
+    
+    3)
+#include <msp430g2553.h>
+#define BTN BIT2
+#define LED01 BIT0
+#define LED02 BIT6
+
+void main (void)
+{
+WDTCTL = WDTPW | WDTHOLD;
+PIOUT = 0;
+PIDIR = LED01 + LED02;
+for(;;)
+{
+	
+    if(PIIN & BTN == 0)
+	  {
+		PIOUT |= LED01 + LED02;
+		PIOUT &= ~(LED01 + LED02);
+		PIOUT |= LED01 + LED02;
+		PIOUT &= ~(LED01 + LED02);
+	  }
+	    else
+		PIOUT = 0;
+
+	}
+}
