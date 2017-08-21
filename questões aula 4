@@ -1,5 +1,37 @@
-1)a) mov #0,R4
-b)mov R5,R11
-add #1,R11
+1).
+a)mov #0,R4
+b)mov #1,R5
 c)sub #1,R6
-d)
+d)add #2, R7
+e)sub #2, R8
+
+2).
+a)clr R4
+b)inc R5
+c)dec R6
+d)incd R7
+e)decd R8
+
+3).
+a) add R4, R4
+    
+b) mov R5, R11
+   add R5, R11
+   add R11,R5
+  
+c) add R6,R6
+   add R6,R6
+  
+d) mov 2(R9), 4(R9)
+   add 4(R9), 0(R9)
+  
+e) add R4, R4
+   add R5, R5
+   add R5, R5
+   mov R4, 6(R9)
+   sub R5, 6(R9)
+  
+f) add R6,R6
+   sub R6,R4
+   add R4,R4
+   mov R4,6(R9)
