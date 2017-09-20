@@ -1,17 +1,42 @@
-#questão 1
+#questão 1)Quais as diferenças entre os barramentos de dados e de endereços?
+
 -O barramento de dados, como o próprio nome já diz, é por este tipo de barramento que ocorre as trocas de dados no 
 computador, tanto enviados quanto recebidos. Já o de endereços indica o local onde os processos devem ser extraídos
 e para onde devem ser enviados após o processamento.
-#questão 2
+
+#questão 2)Quais são as diferenças entre as memórias RAM e ROM?
 -Memoria RAM é uma memoria volátil que serve para rodar aplicações depois que o computador já está ligado, e cujas informações 
 são perdidas depois do desligamento da máquina e que pode ser acessada a qualquer momento pelo sistema operacional para carregar e 
 sobrescrever informações com muita rapidez.
+
 -Memoria ROM  se refere a um tipo de memória quase permanente, e está principalmente localizada no chip responsável pela iniciação do
 sistema e é lá que as informações básicas do computador ficam armazenadas, portanto não são afetadas quando o dispositivo é desligado.
-#questão 3
--a)RAM, por ser um dado temporario q vai ser sobre-escrito depedendo da entrada do usuário.
--b)ROM, por que ele vai ser salvo no computador e poderá ser usado após o desligamento do computador.
-#qustão 4
+
+#questão 3)Considere o código abaixo:
+------------------------------------------
+#include <stdio.h>
+int main(void)
+{
+	int i;
+	printf("Insira um número inteiro: ");
+	scanf("%d", &i);
+	if(i%2)
+		printf("%d eh impar.\n");
+	else
+		printf("%d eh par.\n");
+	return 0;
+}
+--------------------------------------------
+-a)A variável i é armazenada na memória RAM ou ROM? Por quê?
+
+RAM, por ser um dado temporario q vai ser sobre-escrito depedendo da entrada do usuário.
+
+-b)O programa compilado a partir deste código é armazenado na memória RAM ou ROM? Por quê?
+
+ROM, por que ele vai ser salvo no computador e poderá ser usado após o desligamento do computador.
+
+#qustão 4)Quais são as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
+
 A diferença entre a arquitetura Von Neunmann e a Harvard é que a última separa o armazenamento e o comportamento das instruções do CPU e 
 os dados, enquanto a anterior utiliza o mesmo espaço de memória para ambos.
 Von Neunmann: arquitetura mais simples; mais lento pois não permite acesso simutaneo às memorias; geralmente CISC.
