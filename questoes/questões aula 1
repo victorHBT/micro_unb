@@ -1,22 +1,33 @@
-#questão 1
+#questão 1)O que são sistemas embarcados?
+
 - Sistemas embarcados são sistemas computacionais completos e independentes, mais simples que um computador de propósito geral (desktops),
 encarregados de executar apenas uma função determinada tarefas pré-determinadas, com requisitos específicos na qual executam geralmente
 repetidas vezes.
-#questão 2
+
+#questão 2)O que são sistemas microprocesssados?
+
 - São sistemas que utilizão microprocessadores, ou geralmente chamado apenas de processador, que é um circuito integrado que realiza as 
 funções de cálculo e tomada de decisão de um computador.
-#questão 3
--a) Nos carros existem os ECUs que significa "electronic control units". São basicamente microcontroladores que controlam varias 
+
+#questão 3)Apresente aplicações de sistemas embarcados:
+
+-a)para a indústria automotiva: Nos carros existem os ECUs que significa "electronic control units". São basicamente microcontroladores que controlam varias 
 funcionalidades do carro, como airbags, injeção eletronica dentre varios outros.
--b) Há varios exemplos de eletrodomésticos que utilizam microcontroladores como smarts tvs, celures e basicamente tudo que envolve IoT.
+
+-b)para eletrodomésticos: Há varios exemplos de eletrodomésticos que utilizam microcontroladores como smarts tvs, celures e basicamente tudo que envolve IoT.
 Um bom exemplo disso são as chamadas "casas do futuro", onde os eletrodomésticos estão todos conectados e necessariamente há o uso de 
 microcontroladores.
--c) Na automação industrial há o uso de microcontroladores em basicamente todas as maquinas que são autonomas, como pode-se ver pelo nome.
+
+-c)para automação industrial: Na automação industrial há o uso de microcontroladores em basicamente todas as maquinas que são autonomas, como pode-se ver pelo nome.
 Como na maior parte da etapa de montagem de um veículo, é feita por microcontroladores.
-#questão 4
+
+#questão 4)Cite arquiteturas possíveis e as diferenças entre elas.
+
 -Existem os computadores completos que tem hardware e software como a raspbarry, desktop e notebooks. Existem circuitos feitos sob medida 
 pra uma determinada aplicação. Existem os microcontroladores como fpga, msp. Os microcontroladores não possuem interface para o usuario, 
 diferente de um notbook ou desktop. Os microcontroladores são de baixo custo comparado com um computador comum, funcionais e flexiveis. 
 Porém possuem são mais lentos, possuem menos memória e são usadas geralmente para tarefas específicas.
-#questão 5
+
+#questão 5)Por que usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+
 -Devido a seu baixo custo comparado à outros microcontroladores e seu baixo consumo.
